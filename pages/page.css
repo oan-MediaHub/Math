@@ -112,3 +112,83 @@ a{
     color: #fff;
 
 }
+
+
+.hero-btn_r{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 30px;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn_r:hover{
+    border: 1px solid #fff;
+    background: #000000;
+    transition: 0.75s;
+    color: #fff;
+
+}
+
+
+.hero-btn_e{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 30px;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn_e:hover{
+    border: 1px solid #fff;
+    background: #000000;
+    transition: 0.75s;
+    color: #fff;
+
+}
+
+
+.hero-btn_t{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 30px;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn_t:hover{
+    border: 1px solid #fff;
+    background: #000000;
+    transition: 0.75s;
+    color: #fff;
+
+}
+
+
+.hero-btn_s{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 30px;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn_s:hover{
+    border: 1px solid #fff;
+    background: #000000;
+    transition: 0.75s;
+    color: #fff;
+
+}
