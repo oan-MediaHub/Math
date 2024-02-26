@@ -48,15 +48,15 @@
     cursor: pointer;
 }
 .hero-btn:hover{
-    border: 1px solid #fff;
-    background: #000000;
+    border: 1px solid #000000;
+    background: #fff;
     transition: 0.75s;
     color: #fff;
 
 }
 .text-box1{
     width: 90%;
-    color: #fff;
+    color: transparent;
     position: absolute;
     top: 40%;
     left: 47%;
