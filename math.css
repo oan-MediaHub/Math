@@ -6,7 +6,7 @@
 .header{
     height: 100vh;
     width: 100%;
-    background-image: url(https://oan-mediahub.github.io/Math/images/backpic.png);
+    background-image: url(images/backpic.png);
     background-position: center;
     background-size: cover;
     position: relative;
