@@ -21,6 +21,74 @@
         <div class="pop_btn">
             <i class="fa-solid fa-lightbulb"></i>
         </div>
+        <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #333; 
+      color: #fff; 
+    }
+
+    #timer-container {
+      text-align: center;
+    }
+
+    #timer {
+      font-size: 2em;
+      padding: 10px;
+      background-color: #444; 
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      font-size: 1.5em;
+      padding: 10px 20px;
+      background-color: #555; 
+      color: #fff; 
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="timer-container">
+    <div id="timer">120</div> <!-- change display here -->
+    <button onclick="startTimer()">Start</button>
+  </div>
+  <audio id="ding" src="timer/ding.mp3"></audio>
+
+  <script>
+    let timerInterval;
+    let timeLeft = 120; /*change time here*/
+
+    function startTimer() {
+      if (!timerInterval) {
+        timerInterval = setInterval(updateTimer, 1000);
+      }
+    }
+
+    function updateTimer() {
+      const timerElement = document.getElementById("timer");
+      timerElement.textContent = timeLeft;
+
+      if (timeLeft === 0) {
+        clearInterval(timerInterval);
+        playDingSound();
+      } else {
+        timeLeft--;
+      }
+    }
+
+    function playDingSound() {
+      const dingSound = document.getElementById("ding");
+      dingSound.play();
+    }
+  </script>
 </body>
 
 <script>
