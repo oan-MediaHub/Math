@@ -71,7 +71,6 @@
     
 }
 .text-box2{
-    transform: translate(-50%,-50%);
     width: 90%;
     color: #fff;
     position: absolute;
@@ -79,7 +78,7 @@
     left: 100%;
     text-align: center;
     z-index: 2;
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
     
     
@@ -87,11 +86,11 @@
 .hero-btn1{
     display: inline-block;
     text-decoration: none;
-    color: #000000;
+    color: #fff;
     border: 1px solid #fff;
     padding: 12px 34px;
     font-size: 30px;
-    background: #fff;
+    background: transparent;
     position: relative;
     cursor: pointer;
 }
