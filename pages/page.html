@@ -6,22 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="page.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
-</head>
-<body>
-    <section class="header">
-        <div class="text">
-            <h1>ROUND 1</h1>
-        </div>
-        <div class="back">
-            <a href="https://oan-mediahub.github.io/Math" class="back-btn">Back</a>
-        </div>
-        <div class="answer_btn">
-            <li><a>ANSWER</a></li>
-        </div>
-        <div class="pop_btn">
-            <i class="fa-solid fa-lightbulb"></i>
-        </div>
-        <style>
+    <style>
     body {
       display: flex;
       align-items: center;
@@ -56,15 +41,38 @@
   </style>
 </head>
 <body>
-  <div id="timer-container">
-    <div id="timer">120</div> <!-- change display here -->
+    <section class="header">
+        <div class="text">
+            <h1>ROUND 1</h1>
+        </div>
+        <div class="back">
+            <a href="https://oan-mediahub.github.io/Math" class="back-btn">Back</a>
+        </div>
+        <div class="answer_btn">
+            <li><a>ANSWER</a></li>
+        </div>
+        <div class="pop_btn">
+            <i class="fa-solid fa-lightbulb"></i>
+        </div>
+        
+<script>
+    const toggleBtn = document.querySelector(".pop_btn")
+    const toggleBtnIcon = document.querySelector(".pop_btn i")
+    const AnswerBtn = document.querySelector(".answer_btn")
+
+    toggleBtn.onclick = function () {
+        AnswerBtn.classList.toggle("open")
+    } 
+</script>
+<div id="timer-container">
+    <div id="timer">Time</div> <!-- change display here -->
     <button onclick="startTimer()">Start</button>
   </div>
-  <audio id="ding" src="timer/ding.mp3"></audio>
+  <audio id="ding" src="ding.mp3"></audio>
 
   <script>
     let timerInterval;
-    let timeLeft = 120; /*change time here*/
+    let timeLeft = 12; /*change time here*/
 
     function startTimer() {
       if (!timerInterval) {
@@ -90,18 +98,4 @@
     }
   </script>
 </body>
-
-<script>
-    const toggleBtn = document.querySelector(".pop_btn")
-    const toggleBtnIcon = document.querySelector(".pop_btn i")
-    const AnswerBtn = document.querySelector(".answer_btn")
-
-    toggleBtn.onclick = function () {
-        AnswerBtn.classList.toggle("open")
-    }
-
-     
-
-    
-</script>
 </html>
