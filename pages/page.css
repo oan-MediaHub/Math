@@ -11,12 +11,18 @@
     background-size: cover;
     position: relative;
 }
-nav img{
-    width: 300px:
+.pic{
+    position: absolute;
     left: 50%;
     top: 50%;
-    
+     
 }
+.pic img{
+    height: 60vh;
+    width: 100%;
+    position: relative;
+}
+    
     
 .text{
     width: 90%;
