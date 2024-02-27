@@ -138,6 +138,7 @@ body {
 
   #timer-container {
     text-align: center;
+      
     
   }
 
@@ -147,7 +148,8 @@ body {
     background-color: #444; 
     border-radius: 8px;
     margin-bottom: 20px;
-    width: 10%
+    width: 10%;
+    justify-content: center;
   }
 
   button {
