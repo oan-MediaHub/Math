@@ -126,14 +126,23 @@ a{
 
 }
 
-#timer-container {
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff; 
+  }
+
+timer-container {
     top: 50%;
     left: 50%;
     text-align: center;
 }
 
+    
 #timer {
-    width: 20%;
     top: 50%;
     left: 50%;
     font-size: 2em;
@@ -154,6 +163,5 @@ button {
     border-radius: 8px;
     cursor: pointer;
 }
-
 
 
