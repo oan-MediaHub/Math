@@ -133,10 +133,13 @@ body {
     height: 100vh;
     margin: 0;
     color: #fff; 
+    top: 40%;
+    left: 50%
   }
 
   #timer-container {
     text-align: center;
+    width: 10%
   }
 
   #timer {
