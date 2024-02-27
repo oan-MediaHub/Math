@@ -167,7 +167,7 @@ a{
 }
 .hero-btn_t:hover{
     border: 2px solid #fff;
-    background: #b1ce0e;
+    background: rgb(233, 219, 27);
     transition: 0.75s;
     color: #fff;
 
