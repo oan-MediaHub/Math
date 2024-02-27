@@ -34,14 +34,14 @@
 </script>
 
 <div class="timer-container">
-    <div id="timer">Time</div> <!-- change display here -->
+    <div id="timer">120</div> <!-- change display here -->
     <button onclick="startTimer()">Start</button>
   </div>
   <audio id="ding" src="count/ding.mp3"></audio>
 
   <script>
     let timerInterval;
-    let timeLeft = 12; /*change time here*/
+    let timeLeft = 120; /*change time here*/
 
     function startTimer() {
       if (!timerInterval) {
