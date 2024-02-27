@@ -131,6 +131,9 @@ a{
 }
 
 #timer {
+    width: 20%;
+    top: 50%;
+    left: 50%;
     font-size: 2em;
     padding: 10px;
     background-color: #444; 
