@@ -2,7 +2,8 @@ body, html {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	background-image: url(images/picabg.png);
+	background: 	#D3D3D3;
+
 }
 
 .full-page-table {
