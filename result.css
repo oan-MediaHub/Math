@@ -2,19 +2,9 @@ body, html {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	background-image: url(images/backpic.png);
 }
-.header{
-    height: 100vh;
-    width: 100%;
-    background-image: url(images/download.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-	top: -25px;
-	left: -35px;
-	width: 500px;
-	z-index:4;
-}
+
 
 .full-page-table {
 	width: 100%;
